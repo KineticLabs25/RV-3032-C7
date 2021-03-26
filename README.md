@@ -1,8 +1,11 @@
 # RV-3032-C7
 Arduino library for the RV-3032-C7 RTC by Microcrystal. Modified from Andy England's RV-8803 Sparkfun library. The two chips are functionally identical, but the 3032 is newer and consumes less power. A couple distinctions between the two chips made a few commands unnecessary or nonfunctional.
 
+
 -Weekday alarms are not included in the RV-3032-C7
+
 -If using timestamps with EVI, must call "setTSOverwrite()" to ENABLE. Otherwise, the RTC will keep just the first EVI event timestamped.
+
 -This chip has a way to gather temperature data, but I haven't implemented that yet. Feel free to!
 
 SparkFun Real Time Clock Module - RV-8803 (Qwiic) Arduino Library
