@@ -1,5 +1,5 @@
 # RV-3032-C7
-Arduino library for the RV-3032-C7 RTC by Microcrystal. Modified from Andy England's RV-8803 Sparkfun library. The two chips are functionally identical, but the 3032 is newer and consumes less power. A couple distinctions between the two chips made a few commands unnecessary or nonfunctional.
+Arduino library for the RV-3032-C7 RTC by Microcrystal. Modified from Andy England's RV-8803 Sparkfun library. The two chips are functionally identical, but the 3032 is newer and consumes less power. A couple distinctions between the two chips made a few commands unnecessary or nonfunctional. Everything else should work identically between the two.
 
 
 -Weekday alarms are not included in the RV-3032-C7
