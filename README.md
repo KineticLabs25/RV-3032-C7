@@ -8,6 +8,9 @@ Arduino library for the RV-3032-C7 RTC by Microcrystal. Modified from Andy Engla
 
 -This chip has a way to gather temperature data, but I haven't implemented that yet. Feel free to!
 
+Also I haven't modified the examples for the new libraries. Literally ctrl-F replace all "8803" with "3032" should probably work.
+
+
 SparkFun Real Time Clock Module - RV-8803 (Qwiic) Arduino Library
 ========================================
 
